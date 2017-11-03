@@ -1,0 +1,66 @@
+/* This is some default styling */
+  .grid-container .blocks {
+    height: 500px;
+  }
+
+  .grid-container .blocks p {
+    padding: 0.5rem;
+  }
+
+  .grid-container .blocks:nth-of-type(even) {
+    background-color: #CCC;
+  }
+
+  .grid-container .blocks:nth-of-type(even) p {
+      color: white;
+  }
+
+  .grid-container .blocks:nth-of-type(odd) {
+    background-color: #AAA;
+  }
+
+  *, *::after, *::before {
+  	box-sizing: border-box;
+  }
+
+  .grid-row::after {
+  	content: "";
+  	display: block;
+  	clear: both;
+  }
+
+  .flexbox .grid-row{
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+
+
+  [class^='grid-col-'] {
+  	float: left;
+  	padding: 0;
+  	/*text-align: left;*/
+  }
+
+  .flexbox [class^='grid-col-']{
+  	float: none;
+  }
+
+
+  .grid-col-1of2{
+  	width: 50%;
+  }
+
+  .flexbox .grid-col-1of2{
+  	flex-grow: 1;
+  	width:auto;
+  }
+
+  .grid-item{
+    width: 30%;
+    float: left;
+  }
+
+  .flexbox .grid-item{
+    flex-grow: 1;
+    width:auto;
+  }
