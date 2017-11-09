@@ -240,6 +240,24 @@ p{
 
 }
 
+/* Styling for listing bullet points */
+.bullet-list{
+  display: block;
+  list-style: circle;
+}
+
+.bullet-list li{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  /*color: green;*/
+}
+
+.styleguide-list{
+  padding-top: 1.5rem;
+}
+
 .text-link{
   font-weight: 300;
   font-size: 1em;
@@ -270,7 +288,8 @@ p{
 
 .button:hover, .button:focus{
   border: 2px solid #C28CA4;
-  background-color: #F1F4FC;
+  /*background-color: #F1F4FC;*/
+  background-color: white;
   color: #C28CA4;
 }
 
