@@ -3,7 +3,7 @@
   <head>
     <title>Portfolio.</title>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
+    <link rel="icon" type="image/png" href="img/icon.png">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
@@ -19,10 +19,13 @@
     <div class="nav-bar">
       <nav>
         <div class="main-nav">
+
           <a href="#footer" class="main-nav-item">CONTACT</a>
           <a href="#work" class="main-nav-item">WORK</a>
           <a href="index.html" class="main-nav-item">ABOUT</a>
-          <!-- <a href="#" class="main-nav-item">Nav1</a> -->
+          <a href="index.html" class="main-nav-item-img">
+            <img src="img/jc-logo1.png" alt="Johanna's Logo">
+          </a>
         </div>
       </nav>
     </div>
@@ -31,8 +34,8 @@
 
       <div class="grid-col-1of2">
         <h1 class="website-title">Hey there, it's Johanna!</h1>
-        <h2>user experience</h2>
-        <h2>visual designer</h2>
+        <h2>ux + visual designer</h2>
+        <!-- <h2>visual designer</h2> -->
       </div>
 
       <div class="grid-col-1of2">
@@ -43,9 +46,17 @@
 
     </div>
 
-    <div class="about-container">
+
+    <div class = "about-container">
       <h2>Here's a little about me</h2>
-      <p>I'm an aspiring visual and user experience designer studying Interactive Arts + Technology in Simon Fraser University. Different forms, curiosity, and visually intriguing content drive me to look for interesting ways to enhance my visual communication skills.</p>
+      <div class="grid-row">
+      <div class="grid-col-1of2">
+        <img class = "about-image" alt = "image of Johanna" src="img/jojo.png">
+      </div>
+      <div class="grid-col-1of2">
+      <p>I'm an aspiring user experience and visual designer currently studying Interactive Arts + Technology in Simon Fraser University where I've found a passion for creating digital illustrations and animating motion graphics. Observing different forms, being curious, and getting inspired by visually intriguing content tend to drive me to look for interesting ways to enhance my visual communication skills.</p>
+      </div>
+    </div>
     </div>
 
       <section id="work">
@@ -59,8 +70,8 @@
             <a href="project1.html">
             <div class="item1">
             <img src="img/login-animate.gif" alt="Project1"></div>
-            <h4>Lighthouse</h4>
-            <p>summer 2016</p>
+            <h4>Lighthouse App</h4>
+            <p>Interface Design / summer 2016</p>
             </a>
           </div>
 
@@ -69,7 +80,15 @@
             <div class="item2">
             <img src="img/abm-video.png" alt="Project2"></div>
             <h4>Applied Biological Materials</h4>
-            <p>summer 2017</p>
+            <p>Marketing & Design Co-op / summer 2017</p>
+          </div>
+
+          <div class="grid-item">
+            <a href="project3.html">
+            <div class="item3">
+            <img src="img/sloth-v2.gif" alt="Project2"></div>
+            <h4>Illustrations</h4>
+            <p>Samples of my artwork / summer 2017</p>
           </div>
       </div>
     </section>
@@ -79,6 +98,7 @@
       <nav class="main-footer">
         <a href="styleguide.html" class="footer-item">style guide</a>
         <a href="#" class="footer-item">citations</a>
+        <a class="footer-item">604.366.1778</a>
         <a href="#" class="footer-item">johannac@sfu.ca</a>
       </nav>
     </section>
