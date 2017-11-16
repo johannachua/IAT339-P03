@@ -80,8 +80,9 @@ p{
   top: 0;
   background: #1D151C;
   overflow: hidden;
-  z-index: 1;
-  position: fixed;
+  /*z-index: 1;
+  position: fixed;*/
+  position: relative;
   width: 100%;
   display: inline-block;
   /*box-shadow: 0 3px 0 rgba(100, 100, 100, 0.2);*/
@@ -316,6 +317,7 @@ code{
   /*display: inline-block;*/
   background-color: #C28CA4;
   padding-top: 0em;
+  box-shadow: 0 7px 25px darkgray;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -337,8 +339,11 @@ code{
   color: white;
   margin-top: 0rem;
   margin-left: 16rem;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  font-size: 3.5rem;
 }
 
 .welcome-container h2{
@@ -392,7 +397,7 @@ img.about-image{
 }
 
 .main-nav-item-img{
-  float: left;
+  /*float: left;*/
   padding: 0;
   margin: 0;
 }
