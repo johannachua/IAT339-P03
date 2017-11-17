@@ -112,8 +112,12 @@ p{
   /*font-weight: bold;*/
   text-decoration: none;
   color: #a0a0a0;
-  padding: 2rem;
+  /*padding: 2rem;*/
   transition: 0.5s ease-out;
+}
+
+.nav-block{
+  display: inline-block;
 }
 
 .block-container{
@@ -315,9 +319,17 @@ code{
 
 .welcome-container{
   /*display: inline-block;*/
-  background-color: #C28CA4;
+  /*background-color: #C28CA4;*/
+  height: 580px;
+  background: #C28CA4; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #C28CA4, #D3B6F8); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(bottom right, #C28CA4, #D3B6F8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #C28CA4, #D3B6F8); /* Standard syntax (must be last) */
+
   padding-top: 0em;
   box-shadow: 0 7px 25px darkgray;
+  margin-top: -0.5rem;
+
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -388,6 +400,7 @@ img.about-image{
   margin: 3rem;
   margin-top: 0;
   margin-right: 0rem;
+  margin-bottom: 0;
   /*margin: auto;*/
 }
 
@@ -441,7 +454,6 @@ img.about-image{
   margin: 0;
   font-size: 0.7rem;
 }
-
 
 .grid-item img{
   width: 100%;
