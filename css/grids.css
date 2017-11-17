@@ -46,13 +46,14 @@
   }
 
 
-  .grid-col-1of2{
+  /*.grid-col-1of2{
   	width: 50%;
-  }
+  }*/
 
   .flexbox .grid-col-1of2{
   	flex-grow: 1;
-  	width:auto;
+  	/*width:auto;*/
+    flex-basis: 100%;
   }
 
   .grid-item{
@@ -62,5 +63,377 @@
 
   .flexbox .grid-item{
     flex-grow: 1;
-    width:auto;
+    width: auto;
   }
+
+
+
+  @media (min-width: 23.5em) {
+
+  .main-nav img {
+    width: 20%;
+    margin-top: 1.7rem;
+  }
+
+  .main-nav{
+    text-align: center;
+  }
+
+  .main-nav-links{
+    text-align: center;
+    display: block;
+  }
+
+  .main-nav-links a{
+    padding-left: 1rem;
+    text-align: center;
+  }
+
+	.grid-col-1of2 {
+		/*flex-basis: 100%;*/
+    width: 100%;
+	}
+
+  .welcome-container h1{
+    margin-left: 0;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .welcome-container h2{
+    margin-left: 0;
+    text-align: center;
+    /*font-size: 2.3rem;*/
+  }
+
+  .portrait img{
+    max-width: 300px;
+    margin: auto;
+    /*margin-right: 0;*/
+    display: block;
+  }
+
+  .about-container{
+    margin: 0;
+  }
+
+  img.about-image{
+    width: 70%;
+    margin: auto;
+  }
+
+  .about-portrait{
+    text-align: center;
+  }
+
+  .about-container h2{
+    padding: 2.5rem;
+    padding-top: 0;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .about-container p{
+    padding: 2.5rem;
+  }
+
+  .proj-list {
+    /*margin-left: 1rem;*/
+    margin: 2.5rem;
+  }
+
+  .grid-item{
+    width: 100%;
+  }
+
+  .nav-block{
+    /*display: block;*/
+  }
+
+  .block-container{
+    margin: 0;
+    margin-bottom: -5rem;
+  }
+
+  .proj-analysis img {
+    /*max-width: 150px;*/
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .proj-analysis{
+    padding: 2.5rem;
+  }
+
+  .proj-analysis h1{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+  }
+
+  .proj-analysis h2{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .process{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  img.app-static{
+    width: 70%;
+  }
+
+  .gif-img2 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .caption2{
+    margin: 0;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    padding: 0;
+  }
+
+  .prj-img-block {
+     margin: 0;
+  }
+
+  .vid-container{
+    width: 100%;
+  }
+
+
+  /*.video iframe {
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }*/
+  .vid1 {
+    width: 220px;
+    height: 135px;
+  }
+
+  .footer-item{
+    font-size: 0.8rem;
+    text-align: center;
+    float: none;
+    padding-bottom: 0.5rem;
+  }
+
+  .footer{
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (min-width: 43.75em) {
+  .main-nav{
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  .nav-block{
+    display: inline-block;
+  }
+
+  .main-nav-item-img{
+    float: left;
+    text-align: left;
+  }
+
+  .main-nav-item{
+    float: right;
+  }
+
+  .main-nav-links{
+    text-align: right;
+    display: inline-block;
+  }
+
+  img.about-image{
+    width: 50%;
+    margin: 0;
+  }
+
+  .item1{
+    margin-top: 0.5rem;
+  }
+
+  .about-container p{
+    padding: 3rem;
+  }
+
+  .proj-list {
+    /*margin: 3rem;*/
+    margin-left: 4rem;
+    text-align: center;
+  }
+
+  .grid-item{
+    width: 30%;
+  }
+
+  img.app-static{
+    width: 50%;
+  }
+
+  img.gif-img2{
+    width: 60%;
+  }
+
+  .footer-item{
+    font-size: 0.8rem;
+    text-align: center;
+    float: right;
+    padding: 1.5rem;
+  }
+
+  .vid1 {
+    width: 420px;
+    height: 235px;
+  }
+
+}
+
+@media (min-width: 54em) {
+
+  .main-nav-links{
+    /*text-align: left;*/
+    display: block;
+  }
+
+  .logo-div{
+    float: left;
+  }
+
+  .welcome-container h1{
+    text-align: left;
+    margin-left: 8rem;
+  }
+
+  .welcome-container h2{
+    text-align: left;
+    margin-left: 8rem;
+  }
+
+  img.about-image{
+    width: 65%;
+    margin: 0;
+  }
+
+  .grid-col-1of2 {
+    width: 50%;
+  }
+
+  p.about-me {
+    padding: 0;
+    padding-top: 1rem;
+    margin-right: 4rem;
+  }
+
+  img.prj-img {
+    width: 65%;
+  }
+
+  img.gif-img2{
+    width: 45%;
+  }
+
+  .prj-img-block {
+    margin: 0;
+    margin-right: 3rem;
+  }
+
+  .vid1 {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media (min-width: 80em) {
+  .main-nav-links{
+    /*text-align: left;*/
+    display: block;
+  }
+
+  /*.main-nav-links a{
+    padding-left: 1rem;
+  }*/
+
+  .welcome-container h1{
+    text-align: left;
+    margin-left: 16rem;
+  }
+
+  .welcome-container h2{
+    text-align: left;
+    margin-left: 16rem;
+  }
+
+  .portrait img{
+    max-width: 400px;
+    margin: auto;
+    margin-left: 4rem;
+  }
+
+  img.about-image{
+    width: 45%;
+    margin-left: 5rem;
+  }
+
+  p.about-me {
+    padding: 0;
+    padding-top: 2rem;
+    margin-right: 16rem;
+  }
+
+  .grid-col-1of2 {
+    width: 50%;
+  }
+
+  .block-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .proj-list {
+    /*margin: 3rem;*/
+    margin-left: 8rem;
+    text-align: center;
+  }
+
+  img.gif-img2{
+    width: 35%;
+  }
+
+  .grid-item{
+    width: 30%;
+  }
+
+  .item1{
+    margin-top: 0rem;
+  }
+
+  img.prj-img {
+    width: 72%;
+  }
+
+  /*.vid-container{
+    width: 560px;
+    height: 315px;
+    width: 100%;
+  }*/
+
+
+}
