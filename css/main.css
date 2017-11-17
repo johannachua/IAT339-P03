@@ -55,7 +55,7 @@ h4{
   font-weight: lighter;
   font-size: 0.9em;
   letter-spacing: 0.1rem;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 p{
@@ -127,7 +127,7 @@ p{
 }
 
 .block-container section{
-  padding-bottom: 2rem;
+  /*padding-bottom: 2rem;*/
 }
 
 .blocks{
@@ -320,7 +320,7 @@ code{
 .welcome-container{
   /*display: inline-block;*/
   /*background-color: #C28CA4;*/
-  height: 630px;
+  height: 640px;
   background: #C28CA4; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #C28CA4, #D3B6F8); /* For Safari 5.1 to 6.0 */
   background: -moz-linear-gradient(bottom right, #C28CA4, #D3B6F8); /* For Firefox 3.6 to 15 */
@@ -433,7 +433,7 @@ img.about-image{
 }
 
 .grid-item{
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   margin-right: 1rem;
   padding: 2rem;
   background: white;
@@ -460,7 +460,10 @@ img.about-image{
 }
 
 .item1 img{
-  width: 50%;
+  /*width: 50%;*/
+  width: 35.2%;
+  margin-top: -1.5rem;
+  margin-bottom: -1rem;
 }
 
 .main-footer{
@@ -517,7 +520,7 @@ img.about-image{
 }
 
 .proj-analysis img{
-  max-width: 350px;
+  /*max-width: 350px;*/
   margin-top: 1em;
 }
 

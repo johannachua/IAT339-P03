@@ -75,6 +75,10 @@
     margin-top: 1.7rem;
   }
 
+  .main-nav{
+    text-align: center;
+  }
+
   .main-nav-links{
     text-align: center;
     display: block;
@@ -82,6 +86,7 @@
 
   .main-nav-links a{
     padding-left: 1rem;
+    text-align: center;
   }
 
 	.grid-col-1of2 {
@@ -143,15 +148,17 @@
   }
 
   .nav-block{
-    display: block;
+    /*display: block;*/
   }
 
   .block-container{
     margin: 0;
+    margin-bottom: -5rem;
   }
 
   .proj-analysis img {
-    max-width: 150px;
+    /*max-width: 150px;*/
+    width: 100%;
     margin-top: 1em;
   }
 
@@ -159,9 +166,61 @@
     padding: 2.5rem;
   }
 
+  .proj-analysis h1{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+  }
+
+  .proj-analysis h2{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .process{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  img.app-static{
+    width: 70%;
+  }
+
   .gif-img2 {
     text-align: center;
-     margin-left: 0;
+    margin-left: 0;
+  }
+
+  .caption2{
+    margin: 0;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    padding: 0;
+  }
+
+  .prj-img-block {
+     margin: 0;
+  }
+
+  .vid-container{
+    width: 100%;
+  }
+
+
+  /*.video iframe {
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }*/
+  .vid1 {
+    width: 220px;
+    height: 135px;
   }
 
   .footer-item{
@@ -180,6 +239,8 @@
 @media (min-width: 43.75em) {
   .main-nav{
     display: inline-block;
+    text-align: center;
+
   }
 
   .nav-block{
@@ -205,16 +266,30 @@
     margin: 0;
   }
 
+  .item1{
+    margin-top: 0.5rem;
+  }
+
   .about-container p{
     padding: 3rem;
   }
 
   .proj-list {
     /*margin: 3rem;*/
+    margin-left: 4rem;
+    text-align: center;
   }
 
   .grid-item{
-    width:37%;
+    width: 30%;
+  }
+
+  img.app-static{
+    width: 50%;
+  }
+
+  img.gif-img2{
+    width: 60%;
   }
 
   .footer-item{
@@ -224,9 +299,23 @@
     padding: 1.5rem;
   }
 
+  .vid1 {
+    width: 420px;
+    height: 235px;
+  }
+
 }
 
 @media (min-width: 54em) {
+
+  .main-nav-links{
+    /*text-align: left;*/
+    display: block;
+  }
+
+  .logo-div{
+    float: left;
+  }
 
   .welcome-container h1{
     text-align: left;
@@ -242,6 +331,7 @@
     width: 65%;
     margin: 0;
   }
+
   .grid-col-1of2 {
     width: 50%;
   }
@@ -252,11 +342,28 @@
     margin-right: 4rem;
   }
 
+  img.prj-img {
+    width: 65%;
+  }
+
+  img.gif-img2{
+    width: 45%;
+  }
+
+  .prj-img-block {
+    margin: 0;
+    margin-right: 3rem;
+  }
+
+  .vid1 {
+    width: 560px;
+    height: 315px;
+  }
 }
 
 @media (min-width: 80em) {
   .main-nav-links{
-    text-align: left;
+    /*text-align: left;*/
     display: block;
   }
 
@@ -296,8 +403,37 @@
   }
 
   .block-container{
-    margin: 16rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
+
+  .proj-list {
+    /*margin: 3rem;*/
+    margin-left: 8rem;
+    text-align: center;
+  }
+
+  img.gif-img2{
+    width: 35%;
+  }
+
+  .grid-item{
+    width: 30%;
+  }
+
+  .item1{
+    margin-top: 0rem;
+  }
+
+  img.prj-img {
+    width: 72%;
+  }
+
+  /*.vid-container{
+    width: 560px;
+    height: 315px;
+    width: 100%;
+  }*/
 
 
 }
