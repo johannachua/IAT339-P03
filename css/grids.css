@@ -75,10 +75,6 @@
     margin-top: 1.7rem;
   }
 
-  /*.main-nav-item-img a{
-    text-align: center;
-  }*/
-
   .main-nav-links{
     text-align: center;
     display: block;
@@ -150,6 +146,35 @@
     display: block;
   }
 
+  .block-container{
+    margin: 0;
+  }
+
+  .proj-analysis img {
+    max-width: 150px;
+    margin-top: 1em;
+  }
+
+  .proj-analysis{
+    padding: 2.5rem;
+  }
+
+  .gif-img2 {
+    text-align: center;
+     margin-left: 0;
+  }
+
+  .footer-item{
+    font-size: 0.8rem;
+    text-align: center;
+    float: none;
+    padding-bottom: 0.5rem;
+  }
+
+  .footer{
+    margin-bottom: 1rem;
+  }
+
 }
 
 @media (min-width: 43.75em) {
@@ -192,14 +217,87 @@
     width:37%;
   }
 
+  .footer-item{
+    font-size: 0.8rem;
+    text-align: center;
+    float: right;
+    padding: 1.5rem;
+  }
+
+}
+
+@media (min-width: 54em) {
+
+  .welcome-container h1{
+    text-align: left;
+    margin-left: 8rem;
+  }
+
+  .welcome-container h2{
+    text-align: left;
+    margin-left: 8rem;
+  }
+
+  img.about-image{
+    width: 65%;
+    margin: 0;
+  }
+  .grid-col-1of2 {
+    width: 50%;
+  }
+
+  p.about-me {
+    padding: 0;
+    padding-top: 1rem;
+    margin-right: 4rem;
+  }
+
 }
 
 @media (min-width: 80em) {
+  .main-nav-links{
+    text-align: left;
+    display: block;
+  }
+
+  /*.main-nav-links a{
+    padding-left: 1rem;
+  }*/
+
+  .welcome-container h1{
+    text-align: left;
+    margin-left: 16rem;
+  }
+
+  .welcome-container h2{
+    text-align: left;
+    margin-left: 16rem;
+  }
+
+  .portrait img{
+    max-width: 400px;
+    margin: auto;
+    margin-left: 4rem;
+  }
+
   img.about-image{
-    width: 25%;
-    margin: 0;
+    width: 45%;
+    margin-left: 5rem;
   }
-  .about-container{
-    display: inline-block;
+
+  p.about-me {
+    padding: 0;
+    padding-top: 2rem;
+    margin-right: 16rem;
   }
+
+  .grid-col-1of2 {
+    width: 50%;
+  }
+
+  .block-container{
+    margin: 16rem;
+  }
+
+
 }
