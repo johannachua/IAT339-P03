@@ -435,5 +435,12 @@
     width: 100%;
   }*/
 
+  h3{
+    text-align: left;
+  }
+
+  .proj-analysis h1{
+    font-size: 2.8rem;
+  }
 
 }
