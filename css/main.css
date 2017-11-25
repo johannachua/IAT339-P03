@@ -74,7 +74,9 @@ p{
 }*/
 
 .nav-bar{
-
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .main-nav {
@@ -322,15 +324,15 @@ code{
 .welcome-container{
   /*display: inline-block;*/
   /*background-color: #C28CA4;*/
-  height: 680px;
+  height: 750px;
   background: #C28CA4; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #C28CA4, #D3B6F8); /* For Safari 5.1 to 6.0 */
   background: -moz-linear-gradient(bottom right, #C28CA4, #D3B6F8); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #C28CA4, #D3B6F8); /* Standard syntax (must be last) */
-
-  padding-top: 0em;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
   box-shadow: 0 7px 25px darkgray;
-  margin-top: -0.5rem;
+  /*margin-top: -0.5rem;*/
 
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -378,8 +380,25 @@ code{
   margin: 6em;
 }
 
+.body-bg{
+  background-color: white;
+  margin: 3rem 0 3rem 0;
+  box-shadow: 0 7px 25px darkgrey;
+}
+
+.body-bg2{
+  /*background-color: #C1E2FE, AEB3F5;*/
+  background: #D3B6F8; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #C1E2FE, #D3B6F8); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(bottom right, #C1E2FE, #D3B6F8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #C1E2FE, #D3B6F8);
+  margin: 3rem 0 3rem 0;
+  box-shadow: 0 7px 25px darkgrey;
+}
+
 .about-container{
   padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-left: 16rem;
   margin-right: 16rem;
   margin-top: 3rem;
@@ -387,6 +406,10 @@ code{
 
 .about-container h2{
   text-transform: uppercase;
+}
+
+h2.prj-work-h2{
+  color: white;
 }
 
 /*.grid-item:hover{
@@ -421,6 +444,14 @@ img.about-image{
   width: 20%;
 }
 
+.arrow-item{
+  text-align: center;
+}
+
+.arrow-item img{
+  width: 30%;
+}
+
 .proj-list{
   margin-left: 16rem;
 }
@@ -438,14 +469,25 @@ img.about-image{
   margin-bottom: 3rem;
   margin-right: 1rem;
   padding: 2rem;
-  background: white;
+  background-color: white;
+
+  border: solid white;
   text-align: center;
   border-radius: 10px;
+  transition: .2s ease-out;
+  transition-timing-function: ease-in-out;
 }
 
 .grid-item a{
   text-decoration: none;
   color: #4E70EA;
+}
+
+.grid-item:hover{
+  text-decoration: none;
+  border: solid #4E70EA;
+
+  background: white;
 }
 
 .grid-item p{
@@ -503,6 +545,7 @@ img.about-image{
 
 .proj-analysis{
   margin: auto;
+  margin-top: 5rem;
   padding: 5rem;
   background: white;
   border-radius: 10px;
