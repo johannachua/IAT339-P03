@@ -68,7 +68,7 @@
 
 
 
-  @media (min-width: 23.43em) {
+  @media (min-width: 23em) {
 
   .main-nav img {
     width: 20%;
@@ -135,6 +135,10 @@
   }
 
   .about-container p{
+    /*padding: 2.5rem;*/
+  }
+
+  p.about-me {
     padding: 2.5rem;
   }
 
@@ -271,7 +275,7 @@
   }
 
   .about-container p{
-    padding: 3rem;
+    /*padding: 3rem;*/
   }
 
   .proj-list {
@@ -304,6 +308,28 @@
     height: 235px;
   }
 
+  .item3-text{
+    padding-bottom: 1.5rem;
+  }
+
+}
+
+@media (min-width: 44.125em) {
+  .item2-text{
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 44.43em) {
+  .item1-text{
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 47.87em) {
+  .item3-text{
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media (min-width: 54em) {
@@ -352,12 +378,37 @@
 
   .prj-img-block {
     margin: 0;
-    margin-right: 3rem;
+    /*margin-right: 3rem;*/
   }
 
   .vid1 {
     width: 560px;
     height: 315px;
+  }
+
+  .proj-text{
+    margin-left: 3rem;
+  }
+
+  .process-text{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .about-prj1 p, h3 {
+    margin-right: 3rem;
+  }
+}
+
+@media (min-width: 54.125em) {
+  .item3-text{
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 66.68em) {
+  .item3-text{
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -441,6 +492,19 @@
 
   .proj-analysis h1{
     font-size: 2.8rem;
+  }
+
+  .about-prj1 p{
+    margin-right: 9rem;
+  }
+
+  .process-text{
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+  }
+
+  .item3-text{
+    padding-bottom: 1.6rem;
   }
 
 }
