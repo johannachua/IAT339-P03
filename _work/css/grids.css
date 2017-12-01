@@ -1,4 +1,4 @@
-/* This is some default styling */
+/* default styling */
   .grid-container .blocks {
     height: 500px;
   }
@@ -34,25 +34,17 @@
   	flex-wrap: wrap;
   }
 
-
   [class^='grid-col-'] {
   	float: left;
   	padding: 0;
-  	/*text-align: left;*/
   }
 
   .flexbox [class^='grid-col-']{
   	float: none;
   }
 
-
-  /*.grid-col-1of2{
-  	width: 50%;
-  }*/
-
   .flexbox .grid-col-1of2{
   	flex-grow: 1;
-  	/*width:auto;*/
     flex-basis: 100%;
   }
 
@@ -66,26 +58,30 @@
     width: auto;
   }
 
-
+  /* MEDIA QUERIES */
 
   @media (min-width: 23em) {
 
-  .main-nav img {
-    width: 20%;
-    margin-top: 1.7rem;
+  .nav-bar{
+    position: absolute;
   }
 
-  .main-nav{
-    text-align: center;
+  .main-nav img{
+    padding-bottom: 0.5rem;
+    width: 20%;
+    margin-top: 1.7rem;
+    float: none;
   }
 
   .main-nav-links{
     text-align: center;
-    display: block;
   }
 
-  .main-nav-links a{
-    padding-left: 1rem;
+  .nav-block a{
+    display: inline-block;
+    float: right;
+    padding: 1rem;
+    /*margin-bottom: 0.5rem;*/
     text-align: center;
   }
 
@@ -110,7 +106,6 @@
   .portrait img{
     max-width: 300px;
     margin: auto;
-    /*margin-right: 0;*/
     display: block;
   }
 
@@ -128,7 +123,7 @@
   }
 
   .about-container h2{
-    padding: 2.5rem;
+    padding: 2rem;
     padding-top: 0;
     text-align: center;
     font-weight: lighter;
@@ -140,6 +135,12 @@
 
   p.about-me {
     padding: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  p.about-me-link{
+    padding: 2.5rem;
+    padding-top: 0;
   }
 
   .proj-list {
@@ -151,13 +152,10 @@
     width: 100%;
   }
 
-  .nav-block{
-    /*display: block;*/
-  }
-
   .block-container{
     margin: 0;
     margin-bottom: -5rem;
+    padding: 1rem;
   }
 
   .proj-analysis img {
@@ -167,7 +165,7 @@
   }
 
   .proj-analysis{
-    padding: 2.5rem;
+    padding: 2rem;
   }
 
   .proj-analysis h1{
@@ -215,13 +213,6 @@
     width: 100%;
   }
 
-
-  /*.video iframe {
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }*/
   .vid1 {
     width: 220px;
     height: 135px;
@@ -240,30 +231,60 @@
 
 }
 
-@media (min-width: 43.75em) {
-  .main-nav{
-    display: inline-block;
-    text-align: center;
+@media (min-width: 24.2em) {
+  .main-nav a{
+    padding: 1rem;
+  }
+}
 
+@media (min-width: 25.5em) {
+  .main-nav-links{
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 31.18em) {
+
+  .main-nav-links{
+    padding: 0;
+  }
+
+  .main-nav img{
+    width: 20%;
+    float: left;
+    margin-left: 1.5rem;
   }
 
   .nav-block{
-    display: inline-block;
-  }
-
-  .main-nav-item-img{
-    float: left;
-    text-align: left;
-  }
-
-  .main-nav-item{
     float: right;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 43.75em) {
+
+  .nav-bar{
+    position: fixed;
   }
 
-  .main-nav-links{
-    text-align: right;
-    display: inline-block;
+  .main-nav img{
+    width: 15%;
+    float: left;
+    /*padding: 1rem;*/
   }
+
+  /*.main-nav a{
+    padding: 0;
+  }
+
+  .main-nav-links a{
+    display: block;
+  }
+
+  .nav-block a{
+    padding: 1rem;
+    padding-bottom: 1rem;
+  }*/
 
   img.about-image{
     width: 50%;
@@ -332,15 +353,20 @@
   }
 }
 
+/*@media (min-width: 49.12em) {
+  .item1 img {
+    margin-bottom: 0rem;
+  }
+}*/
+
 @media (min-width: 54em) {
 
-  .main-nav-links{
-    /*text-align: left;*/
-    display: block;
+  .main-nav img{
+    width: 12%;
   }
 
-  .logo-div{
-    float: left;
+  .main-nav-links{
+    display: block;
   }
 
   .welcome-container h1{
@@ -365,6 +391,13 @@
   p.about-me {
     padding: 0;
     padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 4rem;
+  }
+
+  p.about-me-link {
+    padding: 0;
+    padding-top: 0rem;
     margin-right: 4rem;
   }
 
@@ -381,12 +414,20 @@
     /*margin-right: 3rem;*/
   }
 
+  /*.item1 img {
+    margin-bottom: -0.5rem;
+  }*/
+
   .vid1 {
     width: 560px;
     height: 315px;
   }
 
   .proj-text{
+    margin-left: 3rem;
+  }
+
+  .list2{
     margin-left: 3rem;
   }
 
@@ -413,13 +454,14 @@
 }
 
 @media (min-width: 80em) {
-  .main-nav-links{
-    /*text-align: left;*/
-    display: block;
+
+  .main-nav img{
+    width: 8%;
+    float: left;
   }
 
-  /*.main-nav-links a{
-    padding-left: 1rem;
+  /*.nav-block a{
+    padding-bottom: 0;
   }*/
 
   .welcome-container h1{
@@ -445,7 +487,7 @@
 
   p.about-me {
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1.7rem;
     margin-right: 16rem;
   }
 
@@ -480,12 +522,6 @@
     width: 72%;
   }
 
-  /*.vid-container{
-    width: 560px;
-    height: 315px;
-    width: 100%;
-  }*/
-
   h3{
     text-align: left;
   }
@@ -507,4 +543,10 @@
     padding-bottom: 1.6rem;
   }
 
+}
+
+@media (min-width: 96.75em) {
+  .item1 img {
+    margin-bottom: -1.4rem;
+  }
 }
