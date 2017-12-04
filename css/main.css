@@ -556,8 +556,7 @@ img.about-image {
   text-align: center; }
 
 .proj-analysis img {
-  /*max-width: 350px;*/
-  margin-top: 1em; }
+  /*max-width: 350px;*/ }
 
 .proj-analysis .gif-img img {
   margin-top: -5rem; }
