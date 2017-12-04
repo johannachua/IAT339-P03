@@ -1,8 +1,0 @@
-# This is an .htaccess file
-
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresDefault "access 1 day"
-ExpiresByType text/css "access 1 week"
-ExpiresByType image/jpg "access 1 month"
-<IfModule>
