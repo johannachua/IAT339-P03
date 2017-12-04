@@ -3,13 +3,12 @@
 body{
   font-family: sans-serif;
   margin: 0;
-  /*background-color: #FCF3F3;*/
   color: #211435;
   background-color: #F1F4FC;
 }
 
 div, article, nav, section {
-    display: block;
+  display: block;
 }
 
 /* Text styling for index html */
@@ -31,6 +30,11 @@ h2{
   padding: 0.5em 0;
   color: #211435;
   letter-spacing: 0.2rem;
+}
+
+h1.styleguide-h1{
+  font-size: 2.8rem;
+  margin-top: 6rem;
 }
 
 h2.styleguide-h2{
@@ -79,8 +83,6 @@ p.about-me-link{
   top: 0;
   background: #1D151C;
   overflow: hidden;
-  /*z-index: 1;
-  position: fixed;*/
   position: relative;
   width: 100%;
   display: inline-block;
@@ -94,22 +96,27 @@ p.about-me-link{
   font-weight: lighter;
   text-decoration: none;
   color: #AEB3F5;
+  cursor: pointer;
   /*padding: 2rem;*/
-  transition: 0.5s ease-out;
   display: flex;
   flex-direction: row;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+
   display: inline;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+
+  transition: .2s ease-out;
+  transition-timing-function: ease-in-out;
 }
 
 .main-nav a:hover{
   text-decoration: none;
-  color: #a0a0a0;
-  transition: 0.5s ease-out;
+  /*color: #a0a0a0;*/
+
+  color: grey;
 }
 
 .nav-block{
@@ -461,7 +468,6 @@ img.about-image{
 .grid-item:hover{
   text-decoration: none;
   border: solid #4E70EA;
-
   background: white;
 }
 
@@ -580,7 +586,6 @@ img.about-image{
 }
 
 .gif-img2{
-  /*display: block;*/
   text-align: center;
   margin-left: 6rem;
 }
@@ -611,5 +616,4 @@ img.about-image{
   display: block;
   margin: 0rem 6rem 3rem 0;
   text-align: center;
-  /*position: relative;*/
 }
