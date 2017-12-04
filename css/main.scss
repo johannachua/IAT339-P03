@@ -246,7 +246,6 @@ p.about-me-link{
 
 #text-headings h1, h2, p{
   text-align: left;
-
 }
 
 /* Styling for listing bullet points */
@@ -259,12 +258,8 @@ p.about-me-link{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding: 0.5rem;
+  padding-bottom: 0.2rem;
   font-size: 0.9rem;
-  /*color: green;*/
-}
-
-.styleguide-list{
-  padding-top: 1.5rem;
 }
 
 .text-link{
@@ -369,8 +364,6 @@ code{
 .portrait img{
   position: relative;
   max-width: 400px;
-  /*padding-top: 3rem;*/
-  /*z-index: 1;*/
   margin: 6em;
 }
 
@@ -418,12 +411,6 @@ img.about-image{
   margin-top: 0;
   margin-right: 0rem;
   margin-bottom: 0;
-  /*margin: auto;*/
-}
-
-.main-nav-item{
-  /*float: right;*/
-  /*display: inline-block;*/
 }
 
 .arrow-item{
@@ -485,7 +472,6 @@ img.about-image{
 }
 
 .item1 img{
-  /*width: 50%;*/
   width: 35.2%;
   margin-top: -1.5rem;
   margin-bottom: -1rem;

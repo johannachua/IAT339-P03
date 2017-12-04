@@ -264,11 +264,8 @@ p.about-me-link {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding: 0.5rem;
-  font-size: 0.9rem;
-  /*color: green;*/ }
-
-.styleguide-list {
-  padding-top: 1.5rem; }
+  padding-bottom: 0.2rem;
+  font-size: 0.9rem; }
 
 .text-link {
   font-weight: 300;
@@ -375,8 +372,6 @@ code {
 .portrait img {
   position: relative;
   max-width: 400px;
-  /*padding-top: 3rem;*/
-  /*z-index: 1;*/
   margin: 6em; }
 
 .body-bg {
@@ -425,12 +420,7 @@ img.about-image {
   margin: 3rem;
   margin-top: 0;
   margin-right: 0rem;
-  margin-bottom: 0;
-  /*margin: auto;*/ }
-
-.main-nav-item {
-  /*float: right;*/
-  /*display: inline-block;*/ }
+  margin-bottom: 0; }
 
 .arrow-item {
   text-align: center; }
@@ -485,7 +475,6 @@ img.about-image {
   width: 100%; }
 
 .item1 img {
-  /*width: 50%;*/
   width: 35.2%;
   margin-top: -1.5rem;
   margin-bottom: -1rem; }
